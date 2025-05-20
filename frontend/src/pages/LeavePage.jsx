@@ -1,4 +1,8 @@
 import React from "react";
+import img1 from "../assets/images/img1.jpeg";
+import img2 from "../assets/images/img2.jpeg";
+import img3 from "../assets/images/img3.jpeg";
+import img4 from "../assets/images/img4.jpeg";
 
 const LeavePage = () => {
   const styles = {
@@ -200,36 +204,16 @@ const LeavePage = () => {
             <h3 style={styles.heading}>Birthdays</h3>
             <ul>
               <li>
-                <img
-                  style={styles.avatar}
-                  src="https://via.placeholder.com/30"
-                  alt="avatar"
-                />{" "}
-                Madelyn Philips - 12/08/2024
+                <img src={img1} alt="avatar" /> Madelyn Philips - 12/08/2024
               </li>
               <li>
-                <img
-                  style={styles.avatar}
-                  src="https://via.placeholder.com/30"
-                  alt="avatar"
-                />{" "}
-                Ann Stanton - 20/08/2024
+                <img src={img2} alt="avatar" /> Ann Stanton - 20/08/2024
               </li>
               <li>
-                <img
-                  style={styles.avatar}
-                  src="https://via.placeholder.com/30"
-                  alt="avatar"
-                />{" "}
-                Terry Saris - 25/08/2024
+                <img src={img3} alt="avatar" /> Terry Saris - 25/08/2024
               </li>
               <li>
-                <img
-                  style={styles.avatar}
-                  src="https://via.placeholder.com/30"
-                  alt="avatar"
-                />{" "}
-                Jordyn Curtis - 28/08/2024
+                <img src={img4} alt="avatar" /> Jordyn Curtis - 28/08/2024
               </li>
             </ul>
           </Card>
