@@ -6,10 +6,9 @@ import Login from "./pages/LoginPage";
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to the App</h1>
+   
       <Login />
-      {/* Uncomment the line below to include the Dashboard component */}
-      {/* <Dashboard /> */}
+      <Dashboard /> 
     </div>
     )
 };
