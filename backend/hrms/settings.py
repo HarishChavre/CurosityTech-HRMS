@@ -1,3 +1,14 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'hrms_db',
+        'USER': 'hrms_user',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+
 """
 Django settings for hrms project.
 
@@ -20,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-)%ou6&7*vcsfd@=0lwx-+veftri0km#@n5m5_^s&+lubgw63)^'
+SECRET_KEY = 'django-insecure-0@tm5u9i&$rw4=a8ny)--mtk$k7c=tux5k^jw549@^tidg!-$n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,11 +48,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'rest_framework',
     'attendance',
     'leave',
     'payroll',
     'users',
+=======
+    'core',
+>>>>>>> 4f326dff2010c16081d44c7b0afc8c979b1f5573
 ]
 
 MIDDLEWARE = [
