@@ -1,16 +1,17 @@
-// App.js
 import React from "react";
 import Dashboard from "./components/Dashboard";
-import Login from "./pages/LoginPage";
+
+import HRMSLogin from "./pages/HRMSLogin";
+
 
 function App() {
   return (
     <div className="App">
    
-      <Login />
+      <HRMSLogin />
       <Dashboard /> 
     </div>
     )
 };
 
-export default App;
+export default App;
